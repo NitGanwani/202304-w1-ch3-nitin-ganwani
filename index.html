@@ -8,28 +8,33 @@
   <title>Lista de la compra</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="shortcut icon" href="carro-compras.jpg" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/da94a75f9d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <header>
-    <h1>Lista de la compra</h1>
+  <header class="top-side">
+    <h1 class="main-title">Lista de la compra</h1>
     <nav>
       <ul>
         <li>
-          <a href="">Principal</a>
+          <a href="#">Principal</a>
         </li>
-        <li>Lista</li>
-        <li>Acerca de</li>
+        <li>
+          <a href="#">Lista</a>
+        </li>
+        <li>
+          <a href="#">Acerca de</a>
+        </li>
       </ul>
     </nav>
   </header>
-  <main>
-    <section>
-      <h2>-</h2>
-      <h2>2/3 comprados</h2>
+  <main class="main-container">
+    <section class="items-number">
+      <i class="icon fa-solid fa-circle-minus" style="color: #ffffff;"></i>
+      <h3>2/3 comprados</h3>
     </section>
-    <section>
-      <h3>Añadir artículo</h3>
+    <section class="form-container">
+      <h2>Añadir artículo</h2>
       <form action="submit">
         <label for="name">
           <h4>Nombre:</h4>
@@ -37,11 +42,9 @@
         </label>
         <label for="price">
           <h4>Precio:</h4>
-          <input type="text" id="price">
+          <input type="text" id="price"> €
         </label>
-        <div>
-          <input type="submit" value="Añadir">
-        </div>
+        <input class="button" type="submit" value="Añadir">
       </form>
     </section>
   </main>
