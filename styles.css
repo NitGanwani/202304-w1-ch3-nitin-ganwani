@@ -39,6 +39,11 @@ span {
   padding: 5px;
 }
 
+hr {
+  margin: 5px 15px;
+  border: 0.1px solid;
+}
+
 .top-side {
   display: flex;
   align-items: center;
@@ -62,6 +67,7 @@ span {
 }
 
 .icon {
+  font-size: xx-large;
   align-self: center;
   padding: 15px;
 }
@@ -93,4 +99,31 @@ span {
   display: flex;
   margin-top: 20px;
   border: none;
+}
+
+.shop-item,
+.shop-price,
+.cart-item {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 10px;
+}
+
+.shop-input {
+  height: 22px;
+  width: 22px;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.final-price {
+  padding-right: 10px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: right;
 }

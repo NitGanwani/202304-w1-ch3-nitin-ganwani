@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de la compra</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="carro-compras.jpg" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/da94a75f9d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="top-side">
+    <h1 class="main-title">Lista de la compra</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="https://202304-w1-ch3-nitin-ganwani.vercel.app/">Principal</a>
+        </li>
+        <li>
+          <a href="#">Lista</a>
+        </li>
+        <li>
+          <a href="#">Acerca de</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main-container">
+    <section class="items-number">
+      <i class="icon fa-solid fa-circle-plus" style="color: #fff;"></i>
+      <h3>2/3 comprados</h3>
+    </section>
+    <section class="list-form-container">
+      <form action="submit">
+        <div class="shop-item">
+          <div class="cart-item checked">
+            <input class="shop-input" type="checkbox" name="bread" id="bread">
+            <label for="bread">Pan</label>
+          </div>
+          <div class="shop-price">
+            <h4 class="checked">0.75€</h4>
+            <span><strong>X</strong></span>
+          </div>
+        </div>
+        <div class="shop-item">
+          <div class="cart-item">
+            <input class="shop-input" type="checkbox" name="sugar" id="sugar">
+            <label for="sugar">Azúcar</label>
+          </div>
+          <div class="shop-price">
+            <h4></h4>
+            <span><strong>X</strong></span>
+          </div>
+        </div>
+        <div class="shop-item">
+          <div class="cart-item checked">
+            <input class="shop-input" type="checkbox" name="milk" id="milk">
+            <label for="milk">Leche</label>
+          </div>
+          <div class="shop-price">
+            <h4 class="checked">1.20€</h4>
+            <span><strong>X</strong></span>
+          </div>
+        </div>
+        <div class="shop-item">
+          <div class="cart-item">
+            <input class="shop-input" type="checkbox" name="tofu" id="tofu">
+            <label for="tofu">Tofu</label>
+          </div>
+          <div class="shop-price">
+            <h4>4.35€</h4>
+            <span><strong>X</strong></span>
+          </div>
+        </div>
+      </form>
+      <hr>
+      <h3 class="final-price">6.3€</h3>
+    </section>
+  </main>
+</body>
+
+</html>
